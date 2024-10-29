@@ -1,0 +1,47 @@
+/* styles.css */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Animation de la couleur */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Change la couleur au survol en or */
+}
+/* styles.css */
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1); /* Zoom sur l'image */
+}
+/* styles.css */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-visible {
+    opacity:
+
+
+
+.parfum
+  text-align: center; /* Centre le contenu du produit */
+  margin: 20px; /* Ajoute un espacement autour du produit */
+}
+
+.parfum-image {
+  transition: transform 0.3s ease; /* Transition pour l'animation */
+  cursor: pointer; /* Change le curseur pour indiquer que c'est cliquable */
+}
+
+.parfum-image:active {
+  transform: scale(1.1); /* Agrandit l'image lors du clic */
+}
+
+
+
+
